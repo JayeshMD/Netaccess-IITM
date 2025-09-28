@@ -7,7 +7,8 @@ This package automates the netacess process used in IIT Madras.
 This need \emph{selenium}
 
 | Package name | Vesrion|
-|--------------|---------
+|--------------|---------|
+| Google Chrome| Latest veriosn| 
 | selenium     | 4.35.0|
 
 You can install it using following command.
