@@ -9,7 +9,7 @@ This need \emph{selenium}
 | Package name | Vesrion|
 |--------------|---------|
 | Google Chrome| Latest veriosn| 
-| selenium     | 4.35.0|
+| selenium     | 4.35.0 (tested with)|
 
 You can install it using following command.
 
