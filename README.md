@@ -48,14 +48,18 @@ which python3
 To obtain the path of Python.
 
 ## Step 2: Default Python path for netaccess
-If you are following this procedure, you can skip this step as we have already set up the default Python path in the **netaccess.py** file.
 
-If you are setting this up at another location, you can open **netaccess.py** and specify the path to python3.
 
-For the current procedure, the location of Python, which we used to install Selenium, is as follows.
+Modify first line of the *netaccess.py* to add python interpreter path, which we used to install Selenium.
 
 ```
-#!~/Netaccess-IITM/venv_netaccess/bin/python3
+#!path_to_python3
+```
+
+**Path of python3 found in step 1 should be used here. For example,**
+
+```
+#!/home/user/Netaccess-IITM/venv_netaccess/bin/python3
 ```
 
 ## Step 3: Provide *username* and *password*

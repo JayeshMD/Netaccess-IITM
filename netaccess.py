@@ -1,4 +1,5 @@
-#!~/Netaccess-IITM/venv_netaccess/bin/python3
+#!path_to_python3
+
 import os
 import time
 import getpass
