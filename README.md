@@ -41,26 +41,23 @@ You can install **selenium** using the following command.
 pip install selenium
 ```
 
-For Linux or Mac systems, you can open a terminal and type, 
+## Step 2: Default Python path for netaccess 
+
+For Linux or Mac systems, to obtain the path of Python you can open a terminal and run, 
 ```
 which python3
 ```
-To obtain the path of Python.
-
-## Step 2: Default Python path for netaccess
-
-
-Modify first line of the *netaccess.py* to add python interpreter path, which we used to install Selenium.
+Modify first line of the *netaccess.py* to add python interpreter path.
 
 ```
 #!path_to_python3
 ```
-
-**Path of python3 found in step 1 should be used here. For example,**
+For example,
 
 ```
 #!/home/user/Netaccess-IITM/venv_netaccess/bin/python3
 ```
+**Imporatnat: Add correct path. Above path is just an example.**
 
 ## Step 3: Provide *username* and *password*
 
