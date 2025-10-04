@@ -1,2 +1,4 @@
 *.pkl
 .conf
+venv_netaccess
+venv_netaccess/*
