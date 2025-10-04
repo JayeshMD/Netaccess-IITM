@@ -53,8 +53,7 @@ input_element = driver.find_element(By.ID, "username")
 input_element.send_keys(username)
 
 input_element = driver.find_element(By.ID, "password")
-#input_element.send_keys(password+ Keys.ENTER)
-input_element.send_keys(password)#+ Keys.ENTER)
+input_element.send_keys(password)
 
 input_element = driver.find_element(By.CSS_SELECTOR, 'button.btn.btn-primary')
 input_element.click()
